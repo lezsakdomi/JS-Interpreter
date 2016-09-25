@@ -2961,7 +2961,6 @@ Interpreter.prototype['stepForInStatement'] = function() {
 };
 
 Interpreter.prototype['stepForStatement'] = function() {
-  console.log("Starting the for statement");
   var state = this.stateStack[0];
   state.isLoop = true;
   var node = state.node;
